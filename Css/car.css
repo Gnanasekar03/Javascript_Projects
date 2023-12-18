@@ -1,0 +1,585 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*------------- header------------ */
+
+#container1 {
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+header .logo .logoimg {
+    width: 80px;
+    position: relative;
+    top: 4px;
+}
+
+.logo {
+    height: 31px;
+}
+
+header {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 15px;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+    color: rgb(32, 177, 177);
+
+}
+
+header nav ul {
+    font-weight: 500;
+}
+
+/* ----------slider------------ */
+
+div#slider {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.right_travel {
+    width: 500px;
+}
+
+.Ur_travel {
+    width: 630px;
+    /* margin: 0px 45px; */
+}
+
+.radius {
+    height: 313px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 300px;
+    background-color: rgb(32, 177, 177);
+}
+
+div#slider {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px 0px 0px 48px; */
+}
+
+h1 {
+    font-size: 96px;
+    font-style: italic;
+}
+
+button {
+    margin: 25px 0;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+img.audicar {
+    width: 499px;
+    position: absolute;
+    right: 300px;
+    top: 150px;
+    right: 120px;
+}
+
+.heading {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* navbar */
+#container2 {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+#navbar {
+    width: 91%;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 30px;
+
+}
+
+header nav ul li:hover {
+    color: rgb(11, 125, 190);
+    cursor: pointer;
+}
+
+#slider {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#slider .cars {
+    height: 240px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 10px 10px 6px lightgray;
+}
+
+button {
+    height: 40px;
+    width: 270px;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+}
+
+.max {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    /* padding-left: 5px; */
+    margin-left: -10px;
+}
+
+.mercedes {
+    font-family: ui-monospace;
+    padding: 10px;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+
+    /* margin-left: -26px; */
+}
+
+small {
+    font-family: auto;
+    font-weight: 100;
+}
+
+#slider .cars {
+    height: 240px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 7px;
+    /* box-shadow: 10px 10px 6px lightgray; */
+}
+
+
+i.dollar_fa {
+    font-weight: 900;
+    font-family: fantasy;
+}
+
+.mercedes-benz-png {
+    top: 14px;
+    width: 100%;
+    left: -5px;
+    top: 26px;
+}
+
+img.car_01 {
+    top: 40px;
+}
+
+button #Find {
+    margin-top: 130px;
+    height: 25px;
+    width: 150px;
+}
+
+.heading h2 {
+    margin-bottom: 20px;
+}
+
+/* travel_companion */
+
+div#travel_companian {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 1150px;
+    /* border: 1px solid black; */
+    background-color: rgb(207, 202, 202);
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 17px;
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+#container3 .containerh3 {
+    margin-left: 41px;
+    padding: 60px 0;
+    font-size: 25px;
+}
+
+.img1 {
+    height: 460px;
+    width: 400px;
+}   
+img.left_car {
+    height: 440px;
+    width: 225px;
+}
+img#companian_img {
+    width: 50%;
+}
+.img2 {
+    height: 460px;
+    width: 400px;
+}
+.img2 img{
+    height: 440px;
+    width: 225px;
+
+}
+ .urcompanion h1 {
+    font-size: 102px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+span{
+    color: rgb(65, 204, 204);
+}
+.urcompanion p span{
+    font-size: 30px;
+    font-weight: 900;
+}
+img#companian_img {
+    width: 20%;
+    position: absolute;
+    top: 1110px;
+    left: 480px;
+}
+.urcompanion .end{
+    text-align: end;
+    margin-top: 85px;
+}
+.urcompanion {
+    padding: 10px;
+}
+
+/* container3  */
+div#container3 {
+    width: 100%;
+}
+.icarwork1 {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+}
+.subwork1 {
+    width: 550px;
+}
+.subwork2{
+    width: 550px;
+}
+
+.subwork2 .sub_img {
+    height: 200px;
+    top: 3px;
+    border-radius: 30px;
+    position: none;
+}
+.subwork1 .icarbtn {
+    margin-top: 60px;
+} 
+
+/* container4 */
+
+
+div#container4 {
+    height: 200px;
+    width: 1150px;
+    /* background-color: lightgray; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+div #container4 .image1,.image3{
+    width: 440px;
+    height: 200px;
+}
+div #container4 .image2{
+    width: 250px;
+    height: 200px;
+}
+
+div #container4 .image1 img,.image2 img,.image3 img{
+    width: 100%;
+    height: 100%;
+    top: 3px;
+    border-radius: 10px;
+}
+
+
+/* container5 */
+
+
+div#container5 {
+    height: 200px;
+    width: 1150px;
+    /* background-color: lightgray; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+div #container5 .image1{
+    width: 216px;
+    height: 200px;
+}
+div #container5 .image2{
+    width: 474px;
+    height: 200px;
+
+}
+div #container5 .image3{
+    width: 215px;
+    height: 200px;
+}
+
+div #container5 .image1 img,.image2 img,.image3 img{
+    width: 100%;
+    height: 100%;
+    top: 3px;
+    border-radius: 10px;
+}
+.icars {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/*container6 */
+
+div#container6 {
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.con_01 {
+    padding: 19px ;
+    width: 50%;
+    height: 162px;
+    background-color: lightgray;
+
+}
+.con_01 h3{
+    margin: 10px 0;
+}
+.con_02 img {
+    width:500px;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    height: 199px;
+    top: 1px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+  /* container7 */
+
+
+  div#container7 {
+    margin: 0 auto;
+    width: 1150px;
+    /* background-color: lightgray; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+div#container7 .miller_tea {
+    height: 300px;
+    width: 50%;
+    margin-left: 80px;
+}
+
+div#container7 .miller_tea img {
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    border-radius: 20px;
+}
+.miller_Para {
+    width: 40%;
+    margin-right: 35px;
+    margin-top: 50px;
+}
+.miller_Para img{
+height: 20px;
+width: 20px;
+}
+.miller_Para p {
+    position: relative;
+    bottom: 3px;
+    left: 31px;
+}
+p.lore {
+    margin: 10px;
+    left: 0px;
+    font-family: sans-serif;
+}
+
+.parentsection {
+    width: 100%;
+    background: #36454F;
+}
+
+/* .subsection {
+    background: #36454F;
+    width: 890px;
+    margin: auto;
+    overflow: auto;
+} */
+.subsection {
+    background: #36454F;
+    width: 1000px;
+    overflow: auto;
+    position: relative;
+    left: 140px;
+}
+
+section {
+    width: 200px;
+    float: left;
+    margin: 20px 74px 0px 0px;
+}
+
+.ji {
+    width: 200px;
+    float: left;
+    margin: 20px 15px 0px 10px;
+    /* position: relative;
+    right: 10px; */
+}
+
+h4 {
+    color: white;
+    font-size: 15px;
+    MARGIN: 10PX 0PX 10PX 35PX;
+    position: relative;
+    right: 37px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section a {
+    text-decoration: none;
+    color: grey;
+}
+
+li {
+    line-height: 1.7;
+    /* border-bottom
+: 1px solid; */
+}
+
+.parentFooter {
+    background-color: #36454F;
+    width: 100%;
+}
+
+footer {
+    width: 890px;
+    margin: auto;
+    overflow: auto;
+}
+
+/* p {
+    font-size: 20px;
+    color: white;
+} */
+
+.leftPara {
+    float: right;
+    color: grey;
+}
+
+.rightpara {
+    float: left;
+    color: grey;
+}
+
+.subtopics p {
+    color: #36454F;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#hifi {
+    color: grey;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+img.parentimg {
+    height: 30px;
+    width: 68px;
+  
+}
+#hifi {
+    color: grey;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 26px;
+}
+
+
+
+
+
